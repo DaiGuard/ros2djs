@@ -481,6 +481,7 @@ ROS2D.NavigationArrow = function(options) {
   graphics.beginFill(fillColor);
   graphics.lineTo(size, 0);
   graphics.lineTo(-size / 2.0, size / 2.0);
+  graphics.lineTo(-size / 2.0, -size / 2.0);
   graphics.closePath();
   graphics.endFill();
   graphics.endStroke();
